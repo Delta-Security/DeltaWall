@@ -15,7 +15,7 @@ apt-get install tcpdump -y
 apt-get install iptables -y
 ```
 
-In order to start running AkhtarWall, execute the following command:
+In order to start running DW, execute the following command:
 ```
 java -jar DeltaWall.jar [NET_INTERFACE] [MAX_THREADS] [MITIGATION_LENGTH_SECONDS] [PPS_TRIGGER] [MBPS_TRIGGER] [MAX_PACKETS_PER_IP]
 ```
